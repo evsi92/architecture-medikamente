@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2">
+  <diagram name="Page-1" id="A7_6H_FkfMuCGFmqkwC0">
+    <mxGraphModel dx="1216" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-26" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="K4BsCHnicFMHD0L8sDTa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" value="Patient as source of FD" vertex="1">
+          <mxGeometry height="30" width="200" x="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-37" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K4BsCHnicFMHD0L8sDTa-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-3" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#f8cecc;strokeColor=#b85450;" value="Payment&lt;div&gt;(Cash Register)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="330" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-6" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="Excel File | Patients&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="270" x="790" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-8" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="Excel | Doctor&#39;s Journal" vertex="1">
+          <mxGeometry height="40" width="270" x="790" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Administrator" vertex="1">
+          <mxGeometry height="50" width="100" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Cassier" vertex="1">
+          <mxGeometry height="50" width="100" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Bookkeeper" vertex="1">
+          <mxGeometry height="50" width="100" x="510" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="read FD" vertex="1">
+          <mxGeometry height="30" width="210" x="60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-14" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-10" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="380" as="sourcePoint" />
+            <mxPoint x="340" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="K4BsCHnicFMHD0L8sDTa-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="130" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses FD" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses FD" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-20" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-12" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Financial Data (FD)" vertex="1">
+          <mxGeometry height="30" width="140" x="400" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-28" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="1С&amp;nbsp; &amp;nbsp; &amp;nbsp;Accounting" vertex="1">
+          <mxGeometry height="40" width="270" x="790" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-29" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.929;entryY=0.735;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="K4BsCHnicFMHD0L8sDTa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FD Read / Write" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-31" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="S3 Storage" vertex="1">
+          <mxGeometry height="250" width="330" x="760" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-39" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="K4BsCHnicFMHD0L8sDTa-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="access validation" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="write / read" vertex="1">
+          <mxGeometry height="30" width="100" x="667" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-34" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="757" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-38" edge="1" parent="1" source="K4BsCHnicFMHD0L8sDTa-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="K4BsCHnicFMHD0L8sDTa-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API with Keycloak" vertex="1">
+          <mxGeometry height="50" width="110" x="540" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K4BsCHnicFMHD0L8sDTa-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ELK" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

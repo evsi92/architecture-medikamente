@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+  <diagram name="Page-1" id="MEopkeb2WCxYc613sOmH">
+    <mxGraphModel dx="1216" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" value="Patient as source of PII&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="200" x="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-43" edge="1" parent="1" source="gG7fJXRvXdm2lOX-Deng-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gG7fJXRvXdm2lOX-Deng-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-2" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#f8cecc;strokeColor=#b85450;" value="User registration and appointment creation" vertex="1">
+          <mxGeometry height="170" width="170" x="330" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-3" edge="1" parent="1" source="gG7fJXRvXdm2lOX-Deng-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FN / DOB / phone / email" vertex="1">
+          <mxGeometry height="30" width="200" x="390" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-5" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="Excel File | Patients&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="270" x="820" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-6" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="File System | Patient Folder" vertex="1">
+          <mxGeometry height="40" width="270" x="820" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-7" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="Excel | Doctor&#39;s Journal" vertex="1">
+          <mxGeometry height="40" width="270" x="820" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Administrator" vertex="1">
+          <mxGeometry height="50" width="100" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Cassier" vertex="1">
+          <mxGeometry height="50" width="100" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Doctor" vertex="1">
+          <mxGeometry height="50" width="100" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Bookkeeper" vertex="1">
+          <mxGeometry height="50" width="100" x="510" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="manages PII / uses PII&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="210" x="60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-21" edge="1" parent="1" source="gG7fJXRvXdm2lOX-Deng-15" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="380" as="sourcePoint" />
+            <mxPoint x="340" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gG7fJXRvXdm2lOX-Deng-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="130" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses PII" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-24" edge="1" parent="1" source="gG7fJXRvXdm2lOX-Deng-17" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="410" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses PII" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="uses PII" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-28" edge="1" parent="1" source="gG7fJXRvXdm2lOX-Deng-18" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="write / read" vertex="1">
+          <mxGeometry height="30" width="100" x="700" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-40" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="S3 Storage" vertex="1">
+          <mxGeometry height="250" width="330" x="790" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-42" edge="1" parent="1" source="gG7fJXRvXdm2lOX-Deng-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-46" edge="1" parent="1" source="gG7fJXRvXdm2lOX-Deng-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="gG7fJXRvXdm2lOX-Deng-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="API with Keycloak" vertex="1">
+          <mxGeometry height="50" width="110" x="590" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gG7fJXRvXdm2lOX-Deng-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ELK" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

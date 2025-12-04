@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2">
+  <diagram name="Page-1" id="FnPLNvyUke057-ofV7Kh">
+    <mxGraphModel dx="1216" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-30" edge="1" parent="1" source="IzCA9DZdi9BoXJsLfIUj-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="IzCA9DZdi9BoXJsLfIUj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-4" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=#f8cecc;strokeColor=#b85450;" value="Warehouse operations" vertex="1">
+          <mxGeometry height="170" width="170" x="330" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-6" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="1C&amp;nbsp; &amp;nbsp; &amp;nbsp;Warehouse" vertex="1">
+          <mxGeometry height="40" width="270" x="770" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-8" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="WH Keeper" vertex="1">
+          <mxGeometry height="50" width="100" x="70" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#b85450;" value="Bookkeeper" vertex="1">
+          <mxGeometry height="50" width="100" x="495" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-11" edge="1" parent="1" source="IzCA9DZdi9BoXJsLfIUj-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="380" as="sourcePoint" />
+            <mxPoint x="340" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="manages warehouse&#39;s items" vertex="1">
+          <mxGeometry height="30" width="190" x="110" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-15" edge="1" parent="1" source="IzCA9DZdi9BoXJsLfIUj-9" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-20" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#f8cecc;strokeColor=#b85450;" value="1С&amp;nbsp; &amp;nbsp; &amp;nbsp;Accounting" vertex="1">
+          <mxGeometry height="40" width="270" x="760" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="manages warehouse&#39;s finances" vertex="1">
+          <mxGeometry height="30" width="190" x="530" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-25" edge="1" parent="1" source="IzCA9DZdi9BoXJsLfIUj-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IzCA9DZdi9BoXJsLfIUj-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="728.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-29" edge="1" parent="1" source="IzCA9DZdi9BoXJsLfIUj-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IzCA9DZdi9BoXJsLfIUj-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="access validation" vertex="1">
+          <mxGeometry height="40" width="91.5" x="528.5" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ELK" vertex="1">
+          <mxGeometry height="60" width="120" x="565" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IzCA9DZdi9BoXJsLfIUj-28" edge="1" parent="1" source="IzCA9DZdi9BoXJsLfIUj-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" target="IzCA9DZdi9BoXJsLfIUj-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
